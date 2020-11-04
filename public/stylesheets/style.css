@@ -1,8 +1,47 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #dbdad9;
 }
 
+#notesList {
+  float: left;
+  background-color: #ffffff;
+  margin:5%;
+  width:30%;
+  height: 100%;
+  padding: 5%;
+}
+
+#weather{
+  background-color: blue;
+  width: 100%;
+  height: 3%;
+}
 a {
-  color: #00B7FF;
+  color: #000000;
+  font-size: 50px;
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+}
+input {
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+div.text {
+  text-align: center;
+}
+#addDescription {
+  height: 400px;
+  width: 60%;
+  padding: 0px 0px 325px 20px;
+  margin: 0px 0px 0px 20px;
+}
+#addName {
+  margin: 0px 0px 0px 20px;
+}
+#addButton {
+  margin: 0px 0px 0px 20px;
 }

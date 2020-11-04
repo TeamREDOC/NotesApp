@@ -1,11 +1,21 @@
-extends layout
+extends addlayout
 
 block content
-  h1 Add Note
-  h4 Enter Title
-  input(type='Title', name='Text', required)
-  h4 Enter Text
-  input(type='Note', name='Text2', required)
+  a(href= "/", id= "backButton") <
+  h1 Add
+  hr
   br
-  br
-  <button type="button">Add</button>
+  form
+      input(type="text", id="addName", placeholder="Namn:")
+      br
+      br
+      br
+      div.text
+      input(type="text", id="addDescription", placeholder="Beskrivning:")
+      br
+      br
+      input(type="submit", value="Add", id="addButton" ,onclick="window.location='/';")
+      br
+  
+  div.weather
+    ul
