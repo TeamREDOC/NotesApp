@@ -1,5 +1,17 @@
-extends layout
+extends addlayout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 Add
+  a(href= "/") <
+  br
+  form
+  
+      input(type="text", id="addName", placeholder="Namn:")
+      br
+      input(type="text", id="addDescription", placeholder="Beskrivning:")
+      br
+      input(type="submit", value="+", id="txtButton" ,onclick="window.location='/';")
+      br
+  
+  div.weather
+    ul

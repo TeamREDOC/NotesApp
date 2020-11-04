@@ -1,5 +1,25 @@
-var notes = [{"id": "0", "title": "Titel", "content": "Content"}];
-let note = {"id": "1", "title": "Titel1", "content": "Content1"};
-notes.push(note);
+url =`https://api.airtable.com/v0/appw9OO3eoSUmoKdt/Receipt%20Log?api_key=keyt35p1SiFUhVcYH`;
 
-console.log (notes[0].title + notes[0].content);
+fetch(url)
+     .then(response => response.json())
+     .then(data => {
+        const {records} = data;
+  
+        for(var i=0; i < data.records.length ; i++){
+        const li = document.createElement("p");
+        li.classList.add("utgifter");
+
+  
+        const markup = `
+          <div id= "notesList">
+              <p>Namn: ${data.records[i].fields.Name} | Pris: ${data.records[i].fields.Description} <p>
+          </div>
+        `;
+       
+        li.innerHTML = markup;
+        document.getElementById("utgifter").appendChild(li);
+     }
+      })
+
+     
+    
