@@ -2,7 +2,7 @@ extends addlayout
 
 block content
   h1 Add
-  a(href= "/") <
+  a(href= "/", id= "backButton") <
   br
   form
   
@@ -10,7 +10,7 @@ block content
       br
       input(type="text", id="addDescription", placeholder="Beskrivning:")
       br
-      input(type="submit", value="+", id="txtButton" ,onclick="window.location='/';")
+      input(type="submit", value="+", id="addButton" ,onclick="window.location='/';")
       br
   
   div.weather
