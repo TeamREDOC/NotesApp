@@ -12,8 +12,8 @@ fetch(url)
   
         const markup = `
           <div id= "notesList">
-              <p>${data.records[i].fields.Name} <p>
-              <p>${data.records[i].fields.Description}</p>
+              <p id="notesListTitle">${data.records[i].fields.Name} <p>
+              <p id="notesListDate">${data.records[i].fields.Date}</p>
           </div>
         `;
        

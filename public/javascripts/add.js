@@ -19,6 +19,4 @@ headers: {'Authorization': 'Bearer keyGnaBQg5v00GqZ4', 'Content-Type': 'applicat
 .then(json => console.log(json))
 .catch(err => console.log (err));
 
-location.replace("/");
-
 });

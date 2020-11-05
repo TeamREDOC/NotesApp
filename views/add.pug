@@ -1,34 +1,22 @@
 extends addlayout
 
 block content
-<<<<<<< HEAD
-  h1 Add
-  a(href= "/", id= "backButton")
+  a(href= "/", id= "backButton") <
+  br
+  br
+  hr
   br
   form
     input(type="text", id="addName", placeholder="Namn:")
     br
+    br
+    br
+    div.text
     input(type="text", id="addDescription", placeholder="Beskrivning:")
     br
-    input(type="submit", value="+", id="txtButton")
     br
-=======
-  a(href= "/", id= "backButton") <
-  h1 Add
-  hr
-  br
-  form
-      input(type="text", id="addName", placeholder="Namn:")
-      br
-      br
-      br
-      div.text
-      input(type="text", id="addDescription", placeholder="Beskrivning:")
-      br
-      br
-      input(type="submit", value="Add", id="addButton" ,onclick="window.location='/';")
-      br
->>>>>>> d16f9c4c17a09abf173c1c26fa6ec1141cd4efa1
+    input(type="submit", value="+", id="addButton")
+    br
   
   div.weather
     ul
