@@ -10,11 +10,11 @@ router.get('/add', function(req, res, next) {
   res.render('add', { title: 'Notes App' });
 });
 
-/*router.get('/update', function(req, res, next) {
+router.get('/update', function(req, res, next) {
   res.render('update', { title: 'Express' });
 });
 
-router.get('/delete', function(req, res, next) {
+/*router.get('/delete', function(req, res, next) {
   res.render('delete', { title: 'Express' });
 });
 

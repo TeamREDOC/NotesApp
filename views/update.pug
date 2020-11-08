@@ -1,4 +1,4 @@
-extends addlayout
+extends updatelayout
 
 block content
   a(href= "/", id= "backButton") <
@@ -11,15 +11,15 @@ block content
   hr
   br
   form
-    input(type="text", id="addName", placeholder="TITLE" autofocus)
+    input(type="text", id="printName", placeholder="TITLE")
     br
     br
     br
     div.text
-    input(type="text", id="addDescription", placeholder="...")
+    input(type="text", id="printDescription", placeholder="...")
     br
     br
-    input(type="submit", value="v", id="addButton")
+    input(type="submit", value="v", id="updateButton")
     br
   
   div.weather

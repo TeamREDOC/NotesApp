@@ -11,10 +11,11 @@ fetch(url)
 
   
         const markup = `
-          <div id= "notesList">
+        <a href="/update?=${data.records[i].id}" >
+          <div id= "notesList" >
               <p id="notesListTitle">${data.records[i].fields.Name} <p>
               <p id="notesListDate">${data.records[i].fields.Date}</p>
-          </div>
+          </div></a>
         `;
        
         li.innerHTML = markup;
