@@ -6,7 +6,7 @@ body {
 
 #notesList {
   float: left;
-  background-color: #FFFCFB;
+  background-color: #fff;
   margin:4%;
   margin-left: 0%;
   width:30%;
@@ -54,7 +54,7 @@ div.text {
   padding: 0px 0px 130% 20px;
   margin-left: 5%;
   margin-top:2%;
-  background-color: #ffffff;
+  background-color: #fff;
   border:none;
   box-shadow: 0.5px 0.5px 2.5px grey;
   border-radius: 20px;
@@ -62,12 +62,18 @@ div.text {
 
 #addDescription:focus{
   outline: none;
+  background-color: #E0E0F3;
+}
+
+#printDescription:focus{
+  outline: none;
+  background-color: #E0E0F3;
 }
 #addName, #printName {
   font-size: 25px;
   margin-left: 5%;
   margin-top:5%;
-  background-color: #ffffff;
+  background-color: #fff;
   border:none;
   box-shadow: 0.5px 0.5px 2.5px grey;
   border-radius: 20px;
@@ -75,14 +81,21 @@ div.text {
 
 #addName:focus {
   outline: none;
+  background-color: #E0E0F3;
 }
+
+#printName:focus {
+  outline: none;
+  background-color: #E0E0F3;
+}
+
 #addButton, #updateButton {
   float: right;
   margin-right: 5%;
   margin-top:3%;
   padding:0% 3.6% 0% 3.6%;
   font-size: 70px;
-  background-color: #FFFCFB;
+  background-color: #fff;
   border:none;
   box-shadow: 0.5px 0.5px 2.5px grey;
   border-radius: 50px;
@@ -93,7 +106,7 @@ div.text {
 #backButton {
   padding:0% 2.2% 0% 2.2%;
   font-size: 60px;
-  background-color: #FFFCFB;
+  background-color: #fff;
   border:none;
   box-shadow: 0.5px 0.5px 2.5px grey;
   border-radius: 50px;
