@@ -1,0 +1,25 @@
+extends addlayout
+
+block content
+  a(href= "/", id= "backButton") <
+  img(id="addLogo",src="images/logo.png", href= "/add") 
+  br
+  br
+  br
+  br
+  hr
+  br
+  form
+    input(type="text", id="addName", placeholder="TITLE")
+    br
+    br
+    br
+    div.text
+    input(type="text", id="addDescription", placeholder="...")
+    br
+    br
+    input(type="submit", value="v", id="addButton")
+    br
+  
+  div.weather
+    ul

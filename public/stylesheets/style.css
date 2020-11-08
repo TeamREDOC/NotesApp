@@ -1,0 +1,104 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #F1F1F3;
+}
+
+#notesList {
+  float: left;
+  background-color: #FFFCFB;
+  margin:4%;
+  margin-left: 0%;
+  width:30%;
+  height: 100%;
+  padding: 8%;
+  border:none;
+  box-shadow: 0.5px 0.5px 2.5px grey;
+  border-radius: 20px;
+}
+
+#notesListTitle {
+  font-size: 30px;
+}
+
+a {
+  color: #000000;
+  font-size: 50px;
+  text-decoration: none;
+  
+}
+h1 {
+  font-family: 'Damion';
+  text-align: center;
+  float: right;
+  margin-right: 1%;
+  margin-top: 0%;
+  font-weight: normal;
+  font-size: 45px;
+}
+input {
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+div.text {
+  text-align: center;
+}
+#addDescription {
+  font-size: 25px;
+  height: 1170px;
+  width: 90%;
+  padding: 0px 0px 130% 20px;
+  margin-left: 5%;
+  margin-top:2%;
+  background-color: #ffffff;
+  border:none;
+  box-shadow: 0.5px 0.5px 2.5px grey;
+  border-radius: 20px;
+}
+#addName {
+  font-size: 25px;
+  margin-left: 5%;
+  margin-top:5%;
+  background-color: #ffffff;
+  border:none;
+  box-shadow: 0.5px 0.5px 2.5px grey;
+  border-radius: 20px;
+}
+#addButton {
+  float: right;
+  margin-right: 5%;
+  margin-top:3%;
+  padding:0% 3.6% 0% 3.6%;
+  font-size: 70px;
+  background-color: #FFFCFB;
+  border:none;
+  box-shadow: 0.5px 0.5px 2.5px grey;
+  border-radius: 50px;
+  font-family: 'Qwigley';
+  font-weight: bold;
+}
+
+#backButton {
+  padding:0% 2.2% 0% 2.2%;
+  font-size: 60px;
+  background-color: #FFFCFB;
+  border:none;
+  box-shadow: 0.5px 0.5px 2.5px grey;
+  border-radius: 50px;
+  font-family: 'Nanum Brush Script';
+}
+
+#noteAddButton {
+  padding:0% 2% 0% 2%;
+  font-size: 60px;
+  background-color: #FFFCFB;
+  border:none;
+  box-shadow: 0.5px 0.5px 2.5px grey;
+  border-radius: 50px;
+  font-family: 'Nanum Brush Script';
+}
+
+#addLogo {
+  width: 8%;
+  float: right;
+}
