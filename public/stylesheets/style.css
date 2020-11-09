@@ -19,6 +19,7 @@ body {
 
 #notesList:active, #addButton:active, #backButton:active, #noteAddButton:active {
   background-color: #E0E0F3;
+  outline: none;
 }
 
 #notesListTitle {
@@ -100,7 +101,12 @@ div.text {
   box-shadow: 0.5px 0.5px 2.5px grey;
   border-radius: 50px;
   font-family: 'Qwigley';
-  font-weight: bold;
+  font-weight: bolder;
+}
+
+#addButton:focus, #updateButton:focus {
+  outline: none;
+  background-color: #E0E0F3;
 }
 
 #backButton {
@@ -126,6 +132,20 @@ div.text {
 #addLogo {
   width: 8%;
   float: right;
+}
+
+#deleteButton{
+  float: right;
+  margin-right: 5%;
+  margin-top:3%;
+  padding:0% 3.6% 0% 3.6%;
+  font-size: 70px;
+  background-color: #fff;
+  border:none;
+  box-shadow: 0.5px 0.5px 2.5px grey;
+  border-radius: 50px;
+  font-family: 'Qwigley';
+  font-weight: bold;
 }
 
 
