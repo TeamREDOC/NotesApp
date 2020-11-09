@@ -10,13 +10,13 @@ block content
   br
   hr
   br
-  form
+  form(id= "usform")
     input(type="text", id="printName", placeholder="TITLE")
     br
     br
     br
     div.text
-    input(type="text", id="printDescription", placeholder="...")
+    textarea(type="text", id="printDescription", placeholder="...", form= "usform")
     br
     br
     input(type="submit", value="v", id="updateButton")

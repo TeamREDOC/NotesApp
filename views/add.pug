@@ -10,13 +10,13 @@ block content
   br
   hr
   br
-  form
+  form(id= "usform")
     input(type="text", id="addName", placeholder="TITLE" autofocus)
     br
     br
     br
     div.text
-    input(type="text", id="addDescription", placeholder="...")
+    textarea(type="text", id="addDescription", placeholder="...", form= "usform")
     br
     br
     input(type="submit", value="v", id="addButton")
