@@ -13,10 +13,11 @@ const addData = {
     }
 }
 
-fetch (url, {method: 'POST' , body: JSON.stringify(addData), 
+fetch (url, {method: 'POST' , body: JSON.stringify(addData),
 headers: {'Authorization': 'Bearer keyGnaBQg5v00GqZ4', 'Content-Type': 'application/json'}})
 .then(response => response.json())
-.then(json => console.log(json))
+.then(json => {console.log(json)
+    window.location.href= "/";})
 .catch(err => console.log (err));
 
 });

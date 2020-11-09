@@ -17,6 +17,10 @@ body {
   border-radius: 20px;
 }
 
+#notesList:active, #addButton:active, #backButton:active, #noteAddButton:active {
+  background-color: #E0E0F3;
+}
+
 #notesListTitle {
   font-size: 40px;
 }
@@ -69,6 +73,7 @@ div.text {
   outline: none;
   background-color: #E0E0F3;
 }
+
 #addName, #printName {
   font-size: 25px;
   margin-left: 5%;
@@ -79,12 +84,7 @@ div.text {
   border-radius: 20px;
 }
 
-#addName:focus {
-  outline: none;
-  background-color: #E0E0F3;
-}
-
-#printName:focus {
+#addName:focus, #printName:focus {
   outline: none;
   background-color: #E0E0F3;
 }
