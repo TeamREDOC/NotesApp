@@ -10,7 +10,7 @@ fetch(url)
         li.classList.add("utgifter");
 
         title= data.records[i].fields.Name;
-        if(title.length > 15) title = title.substring(0, 15) + "...";
+        if(title.length > 12) title = title.substring(0, 12) + "...";
         
   
         const markup = `

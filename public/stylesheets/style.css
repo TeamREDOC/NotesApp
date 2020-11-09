@@ -53,10 +53,10 @@ input {
 div.text {
   text-align: center;
 }
-#addDescription, #printDescription {
+#addDescription {
   font-size: 13px;
   width: 90%;
-  padding: 1% 0px 130% 20px;
+  padding: 1% 0px 120% 20px;
   margin-left: 5%;
   margin-top:2%;
   background-color: #fff;
@@ -65,17 +65,29 @@ div.text {
   border-radius: 20px;
 }
 
+#printDescription{
+  font-size: 13px;
+  width: 90%;
+  padding: 1% 0px 120% 20px;
+  margin-left: 5%;
+  margin-top:2%;
+  background-color: #E0E0F3;
+  border:none;
+  box-shadow: 0.5px 0.5px 2.5px grey;
+  border-radius: 20px;
+}
+
 #addDescription:focus{
   outline: none;
-  background-color: #E0E0F3;
+  background-color: #fff;
 }
 
 #printDescription:focus{
   outline: none;
-  background-color: #E0E0F3;
+  background-color: #fff;
 }
 
-#addName, #printName {
+#addName {
   font-size: 27px;
   margin-left: 5%;
   margin-top:5%;
@@ -85,9 +97,19 @@ div.text {
   border-radius: 20px;
 }
 
+#printName {
+  font-size: 27px;
+  margin-left: 5%;
+  margin-top:5%;
+  background-color: #E0E0F3;
+  border:none;
+  box-shadow: 0.5px 0.5px 2.5px grey;
+  border-radius: 20px;
+}
+
 #addName:focus, #printName:focus {
   outline: none;
-  background-color: #E0E0F3;
+  background-color: #fff;
 }
 
 #addButton, #updateButton {
