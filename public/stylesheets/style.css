@@ -66,7 +66,7 @@ div.text {
 }
 
 #printDescription{
-  font-size: 13px;
+  font-size: 1.2vw;
   width: 90%;
   padding: 1% 0px 120% 20px;
   margin-left: 5%;
@@ -88,7 +88,7 @@ div.text {
 }
 
 #addName {
-  font-size: 27px;
+  font-size: 3vw;
   margin-left: 5%;
   margin-top:5%;
   background-color: #fff;
@@ -98,7 +98,7 @@ div.text {
 }
 
 #printName {
-  font-size: 27px;
+  font-size: 3vw;
   margin-left: 5%;
   margin-top:5%;
   background-color: #E0E0F3;
