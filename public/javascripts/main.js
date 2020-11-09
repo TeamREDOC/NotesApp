@@ -9,11 +9,14 @@ fetch(url)
         const li = document.createElement("p");
         li.classList.add("utgifter");
 
+        title= data.records[i].fields.Name;
+        if(title.length > 15) title = title.substring(0, 15) + "...";
+        
   
         const markup = `
         <a href="/update?=${data.records[i].id}" >
           <div id= "notesList" >
-              <p id="notesListTitle">${data.records[i].fields.Name} <p>
+              <p id="notesListTitle">${title} <p>
               <p id="notesListDate">${data.records[i].fields.Date}</p>
           </div></a>
         `;

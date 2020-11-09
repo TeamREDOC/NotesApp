@@ -15,6 +15,7 @@ body {
   border:none;
   box-shadow: 0.5px 0.5px 2.5px grey;
   border-radius: 20px;
+  position: static;
 }
 
 #notesList:active, #addButton:active, #backButton:active, #noteAddButton:active {
@@ -23,7 +24,7 @@ body {
 }
 
 #notesListTitle {
-  font-size: 40px;
+  font-size: 60%;
 }
 
 #notesListDate{
