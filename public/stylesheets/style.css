@@ -88,6 +88,7 @@ div.text {
 }
 
 #addName {
+  width: 92%;
   font-size: 3vw;
   margin-left: 5%;
   margin-top:5%;
@@ -98,6 +99,7 @@ div.text {
 }
 
 #printName {
+  width: 92%;
   font-size: 3vw;
   margin-left: 5%;
   margin-top:5%;
