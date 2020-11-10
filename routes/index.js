@@ -3,15 +3,15 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Notes App' });
+  res.render('index', { title: 'Notes' });
 });
 
 router.get('/add', function(req, res, next) {
-  res.render('add', { title: 'Notes App' });
+  res.render('add', { title: 'Notes' });
 });
 
 router.get('/update', function(req, res, next) {
-  res.render('update', { title: 'Express' });
+  res.render('update', { title: 'Notes' });
 });
 
 /*router.get('/delete', function(req, res, next) {
