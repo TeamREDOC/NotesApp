@@ -5,11 +5,13 @@ url ='https://api.airtable.com/v0/appwQTdlbIzLufDaj/Receipt%20Log';
 
 var name = document.getElementById("addName").value;
 var description = document.getElementById("addDescription").value;
+var color = document.getElementById("addColor").value;
 
 const addData = {
     "fields":{
         "Name": name,
-        "Description": description
+        "Description": description,
+        "Color": color
     }
 }
 

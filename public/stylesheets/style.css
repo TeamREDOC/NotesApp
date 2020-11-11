@@ -78,7 +78,7 @@ div.text {
   padding: 2% 0px 120% 20px;
   margin-left: 5%;
   margin-top:2%;
-  background-color: #E0E0F3;
+  background-color: #fff;
   border:none;
   box-shadow: 0.5px 0.5px 2.5px grey;
   border-radius: 20px;
@@ -100,7 +100,7 @@ div.text {
   font-size: 3vw;
   margin-left: 5%;
   margin-top:5%;
-  background-color: #fff;
+  
   border:none;
   box-shadow: 0.5px 0.5px 2.5px grey;
   border-radius: 20px;
@@ -112,7 +112,7 @@ div.text {
   font-size: 3vw;
   margin-left: 5%;
   margin-top:5%;
-  background-color: #E0E0F3;
+  
   border:none;
   box-shadow: 0.5px 0.5px 2.5px grey;
   border-radius: 20px;
@@ -181,5 +181,34 @@ div.text {
   font-family: 'Qwigley';
   font-weight: bold;
 }
+
+#addColor{
+  float: left;
+  margin-top:3%;
+  margin-left: 5%;
+  width: 20%;
+  font-size: 3vw;
+  background-color: #fff;
+  border:none;
+  box-shadow: 0.5px 0.5px 2.5px grey;
+  border-radius: 20px;
+  font-family: 'Be Vietnam';
+  padding:1%;
+}
+
+#colorOption:focus {
+  border:none;
+}
+
+option{
+  font-size: 10px;
+  border-color: none;
+  padding:40%;
+}
+
+select {
+  background-color: none;
+}
+ 
 
 
