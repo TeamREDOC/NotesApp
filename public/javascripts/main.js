@@ -1,4 +1,4 @@
-url =`https://api.airtable.com/v0/appwQTdlbIzLufDaj/Receipt%20Log?api_key=keyGnaBQg5v00GqZ4`;
+url =`https://api.airtable.com/v0/appwQTdlbIzLufDaj/Receipt%20Log?sort%5B0%5D%5Bfield%5D=Date&sort%5B0%5D%5Bdirection%5D=desc&api_key=keyGnaBQg5v00GqZ4`;
 
 fetch(url)
      .then(response => response.json())
