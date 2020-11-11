@@ -1,15 +1,17 @@
 extends updatelayout
 
 block content
-  a(href= "/", id= "backButton") <
-  img(id="addLogo",src="images/logo.png", href= "/add") 
-  h1 Notes
-  br
-  br
-  br
-  br
+  div.header
+    a(href= "/", id= "backButton") <
+    img(id="addLogo",src="images/logo.png", href= "/add") 
+    h1 Notes
+    br
+    br
+    br
+    br
   hr
   br
+  
   form(id= "usform")
     input(type="text", id="printName", placeholder="TITLE")
     br
