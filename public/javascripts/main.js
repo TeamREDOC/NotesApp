@@ -11,15 +11,18 @@ fetch(url)
         color=data.records[i].fields.Color;
 
         title= data.records[i].fields.Name;
-        if(title.length > 12) title = title.substring(0, 12) + "...";
-        document.getElementById
-        
+        if(title.length > 11) title = title.substring(0, 11) + "...";
+
+        content= data.records[i].fields.Description;
+        if(content.length > 22) content = content.substring(0, 22) + "...";
   
         const markup = `
         <a href="/update?=${data.records[i].id}" >
           <div id= "notesList" style="background-color:${color}">
-              <p id="notesListTitle">${title} <p>
+              <p id="notesListTitle">${title} </p>
               <p id="notesListDate">${data.records[i].fields.Date}</p>
+              </br>
+              <p id=notesListContent>${content}</p>
           </div></a>
         `;
        

@@ -1,7 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #F1F1F3;
+  background-color: #F8F8F8;
   font-family: 'Be Vietnam';
 }
 
@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  background-color: #F1F1F3;
+  background-color: #F8F8F8;
   position: fixed;
   padding-top: 0%;
   width: 89%;
@@ -28,9 +28,8 @@ body {
   margin-left: 0%;
   width:30%;
   height: 100%;
-  padding: 10% 8% 10% 8%;
+  padding: 3% 11% 14% 5%;
   border:none;
-  box-shadow: 0.5px 0.5px 2.5px grey;
   border-radius: 20px;
   position: static;
   font-family: 'Be Vietnam';
@@ -42,14 +41,20 @@ body {
 }
 
 #notesListTitle {
-  font-size: 60%;
+  font-size: 70%;
   font-weight: 600;
 }
 
 #notesListDate{
-  font-size: 15px;
+  font-size: 50%;
   margin-top: -10%;
   float: left;
+}
+
+#notesListContent {
+  font-size: 40%;
+  float:left;
+  margin-top: 1%;
 }
 
 a {
@@ -80,9 +85,8 @@ div.text {
   padding: 2% 0px 120% 20px;
   margin-left: 5%;
   margin-top:2%;
-  background-color: #fff;
+  background-color: #EEEEEE;
   border:none;
-  box-shadow: 0.5px 0.5px 2.5px grey;
   border-radius: 20px;
   font-family: 'Be Vietnam';
 }
@@ -93,21 +97,20 @@ div.text {
   padding: 2% 0px 120% 20px;
   margin-left: 5%;
   margin-top:2%;
-  background-color: #fff;
+  background-color: #EEEEEE;
   border:none;
-  box-shadow: 0.5px 0.5px 2.5px grey;
   border-radius: 20px;
   font-family: 'Be Vietnam';
 }
 
 #addDescription:focus{
   outline: none;
-  background-color: #fff;
+  background-color: #EEEEEE;
 }
 
 #printDescription:focus{
   outline: none;
-  background-color: #fff;
+  background-color: #EEEEEE;
 }
 
 #addName {
@@ -116,7 +119,7 @@ div.text {
   margin-left: 5%;
   margin-top: 19%;
   border:none;
-  box-shadow: 0.5px 0.5px 2.5px grey;
+  background-color: #EEEEEE;
   border-radius: 20px;
   font-family: 'Be Vietnam';
 }
@@ -126,15 +129,15 @@ div.text {
   font-size: 3vw;
   margin-left: 5%;
   margin-top: 19%;
+  background-color: #EEEEEE;
   border:none;
-  box-shadow: 0.5px 0.5px 2.5px grey;
   border-radius: 20px;
   font-family: 'Be Vietnam';
 }
 
 #addName:focus, #printName:focus {
   outline: none;
-  background-color: #fff;
+  background-color: #EEEEEE;
 }
 
 #addButton, #updateButton {
@@ -144,12 +147,9 @@ div.text {
   padding:0% 3.6% 0% 3.6%;
   font-size: 100px;
   border:none;
-  /*background-color: #fff;
-  box-shadow: 0.5px 0.5px 2.5px grey;
-  border-radius: 50px;*/
   font-family: 'Qwigley';
   font-weight: bolder;
-  background-color: #F1F1F3;
+  background-color: #F8F8F8;
 }
 
 #addButton:focus, #updateButton:focus {
@@ -161,10 +161,6 @@ div.text {
   margin-top: -1%;
   padding:0% 2.2% 0% 2.2%;
   font-size: 70px;
-  /*background-color: #fff;
-  border:none;
-  box-shadow: 0.5px 0.5px 2.5px grey;
-  border-radius: 50px;*/
   font-family: 'Playball'
 }
 
@@ -173,10 +169,6 @@ div.text {
   padding:0% 2% 0% 2%;
   font-size: 70px;
   font-weight: bold;
-  /*background-color: #FFFCFB;
-  border:none;
-  box-shadow: 0.5px 0.5px 2.5px grey;
-  border-radius: 50px;*/
   font-family: 'Playball'
 }
 
@@ -193,12 +185,9 @@ div.text {
   padding:0% 3.6% 0% 3.6%;
   font-size: 100px;
   border:none;
-  /*background-color: #fff;
-  box-shadow: 0.5px 0.5px 2.5px grey;
-  border-radius: 50px;*/
   font-family: 'Qwigley';
   font-weight: bold;
-  background-color: #F1F1F3;
+  background-color: #F8F8F8;
 }
 
 #addColor{
@@ -207,9 +196,8 @@ div.text {
   margin-left: 5%;
   width: 20%;
   font-size: 3vw;
-  background-color: #fff;
+  background-color: #EEEEEE;
   border:none;
-  box-shadow: 0.5px 0.5px 2.5px grey;
   border-radius: 20px;
   font-family: 'Be Vietnam';
   padding:1%;
@@ -226,7 +214,7 @@ option{
 }
 
 select {
-  background-color: none;
+  border: none;
 }
  
 

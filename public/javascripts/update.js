@@ -13,6 +13,7 @@ fetch(url)
     document.getElementById('printDescription').value= data.fields.Description;
     document.getElementById('printDescription').style.backgroundColor= data.fields.Color;
     document.getElementById("addColor").value = data.fields.Color;
+    document.getElementById('addColor').style.backgroundColor= data.fields.Color;
         
       })
 
