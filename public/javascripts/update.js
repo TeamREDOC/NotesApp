@@ -21,8 +21,11 @@ document.querySelector("p").addEventListener("click", e => {
 e.preventDefault();
 
 var name = document.getElementById("printName").value;
+if(name === "") name= "TITLE";
 var description = document.getElementById("printDescription").value;
+if(description === "") description= "*NOTHING WRITTEN*";
 var color = document.getElementById("addColor").value;
+if(color === "") color= "#EEEEEE";
 
 
 url =`https://api.airtable.com/v0/appwQTdlbIzLufDaj/Receipt%20Log/${id}`;

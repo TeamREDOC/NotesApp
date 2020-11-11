@@ -4,8 +4,11 @@ document.querySelector("p").addEventListener("click", e => {
 url ='https://api.airtable.com/v0/appwQTdlbIzLufDaj/Receipt%20Log';
 
 var name = document.getElementById("addName").value;
+if(name === "") name= "TITLE";
 var description = document.getElementById("addDescription").value;
+if(description === "") description= "*NOTHING WRITTEN*";
 var color = document.getElementById("addColor").value;
+if(color === "") color= "#EEEEEE";
 
 const addData = {
     "fields":{

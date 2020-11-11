@@ -12,15 +12,15 @@ block content
   br
 
   form(id= "usform")
-    input(type="text", id="addName", placeholder="TITLE" autofocus)
+    input(type="text", id="addName", placeholder="TITLE", autofocus required)
     br
     br
     br
     div.text
-    textarea(type="text", id="addDescription", placeholder="...", form= "usform")
+    textarea(type="text", id="addDescription", placeholder="...", form= "usform" required)
     br
     br
-    select(form = "usform", id= "addColor")
+    select(form = "usform", id= "addColor" required)
       option(id= "colorOption", value="#EEEEEE", style= "background-color: #EEEEEE") Standard
       option(id= "colorOption",value="#F3E0E0", style= "background-color: #F3E0E0") Red
       option(id= "colorOption",value="#E0E0F3", style= "background-color: #E0E0F3") Blue

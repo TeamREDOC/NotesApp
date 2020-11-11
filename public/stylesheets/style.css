@@ -61,8 +61,12 @@ a {
   color: #000000;
   font-size: 50px;
   text-decoration: none;
-  
 }
+
+a:active{
+  background-color: #F8F8F8;
+}
+
 h1 {
   font-family: 'Damion';
   text-align: center;
@@ -162,6 +166,10 @@ div.text {
   padding:0% 2.2% 0% 2.2%;
   font-size: 70px;
   font-family: 'Playball'
+}
+
+#backbutton:active, #backbutton:focus {
+  background-color: #F8F8F8;
 }
 
 #noteAddButton {
