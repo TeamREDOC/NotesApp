@@ -1,4 +1,4 @@
-document.querySelector("form").addEventListener("submit", e => {
+document.querySelector("p").addEventListener("click", e => {
     e.preventDefault();
 
 url ='https://api.airtable.com/v0/appwQTdlbIzLufDaj/Receipt%20Log';

@@ -17,7 +17,7 @@ fetch(url)
         
       })
 
-document.querySelector("form").addEventListener("submit", e => {
+document.querySelector("p").addEventListener("click", e => {
 e.preventDefault();
 
 var name = document.getElementById("printName").value;
