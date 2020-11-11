@@ -76,7 +76,7 @@ div.text {
 }
 #addDescription {
   font-size: 1.35vw;
-  width: 90%;
+  width: 89%;
   padding: 2% 0px 120% 20px;
   margin-left: 5%;
   margin-top:2%;
@@ -89,7 +89,7 @@ div.text {
 
 #printDescription{
   font-size: 1.35vw;
-  width: 90%;
+  width: 89%;
   padding: 2% 0px 120% 20px;
   margin-left: 5%;
   margin-top:2%;
@@ -111,7 +111,7 @@ div.text {
 }
 
 #addName {
-  width: 92%;
+  width: 91.2%;
   font-size: 3vw;
   margin-left: 5%;
   margin-top: 19%;
@@ -122,7 +122,7 @@ div.text {
 }
 
 #printName {
-  width: 92%;
+  width: 91.2%;
   font-size: 3vw;
   margin-left: 5%;
   margin-top: 19%;
@@ -142,7 +142,7 @@ div.text {
   margin-right: 5%;
   margin-top:3%;
   padding:0% 3.6% 0% 3.6%;
-  font-size: 80px;
+  font-size: 100px;
   border:none;
   /*background-color: #fff;
   box-shadow: 0.5px 0.5px 2.5px grey;
@@ -191,7 +191,7 @@ div.text {
   margin-right: 5%;
   margin-top:3%;
   padding:0% 3.6% 0% 3.6%;
-  font-size: 80px;
+  font-size: 100px;
   border:none;
   /*background-color: #fff;
   box-shadow: 0.5px 0.5px 2.5px grey;
